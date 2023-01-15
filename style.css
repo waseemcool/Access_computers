@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("Fonts/QUICKSAND.TTF");
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("Fonts/HONEYSCRIPT-LIGHT.TTF");
+}
+
+* {
+    font-family: "Quicksand";
+}
+
+.body1 {
+    background-color: white;
+}
+
+.logo {
+    height: 200px;
+    background-image: url("resources/KAC_logo2_rb1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.image {
+    height: 400px;
+    background-image: url("resources/AC2_photo.svg");
+}
+
+.kbtn1 {
+    color: white;
+    background-color: rgb(120, 221, 120);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-color: rgb(120, 221, 120);
+}
+
+.kbtn1:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(99, 192, 99);
+    border-color: rgb(99, 192, 99);
+    transition-duration: 0.3s;
+}
+
+.kbtn1:active {
+    background-color: rgb(120, 221, 120);
+    border-color: rgb(120, 221, 120);
+    box-shadow: 0 0 0 0.25rem rgb(99, 192, 99);
+    transition-duration: 0.3s;
+}
+
+.kbtn1:focus {
+    background-color: rgb(120, 221, 120);
+    border-color: rgb(120, 221, 120);
+    box-shadow: 0 0 0 0.25rem rgb(99, 192, 99);
+    transition-duration: 0.3s;
+}
+
+.kbtn1:disabled {
+    background-color: rgb(120, 221, 120);
+    border-color: rgb(120, 221, 120);
+    transition-duration: 0.3s;
+}
+
+.kbtn2 {
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.kpostercaption {
+    margin-bottom: 85px;
+}
+
+.kpostertitle {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.kpostertxt {
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+
+.kpostercaption1 {
+    margin-bottom: 130px;
+}
+
+.kpostertitle1 {
+    font-size: 60px;
+}
+
+.title1 {
+    font-family: "Honey Script";
+    text-align: center;
+    color: rgb(120, 221, 120);
+}
+
+.div1 {
+    border: none;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link1 {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link1:hover {
+    text-decoration: underline;
+}
+
+.cart {
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.profile {
+    height: 30px;
+    background-image: url("resources/profile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hrbreak {
+    border: grey 3px solid;
+}
+
+.drop {
+    text-align: end;
+}
+
+.carticon {
+    height: 30px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.h {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iat1:hover {
+    color: skyblue;
+}
+
+.iat1:active {
+    color: skyblue;
+}
+
+.iat1:focus {
+    color: skyblue;
+}
+
+.iat1:disabled {
+    color: white;
+}
+
+
+/* .h:hover {
+    background-color: blue;
+} */
+
+.search {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.s_show {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brands {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.see_all {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.brands:hover {
+    text-decoration: underline;
+}
+
+.see_all:hover {
+    text-decoration: underline;
+}
+
+.cardhover:hover {
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(120, 221, 120);
+    transition-duration: 0.3s;
+}
+
+.img-hgt {
+    height: 33vh;
+}
+
+.border1 {
+    border-color: rgb(120, 221, 120);
+}
+
+.emptyview {
+    background-image: url("resources/watchlistEmptyView.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.emptycart {
+    background-image: url("resources/emptycart.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
